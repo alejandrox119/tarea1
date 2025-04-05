@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameplays de los mejores videojuegos </title>
+    <style>
+        body {
+            background: linear-gradient(45deg, black, gray, white); 
+            background-size: cover; 
+            color: white; 
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            min-height: 100vh; 
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .video-container {
+            width: 80%; 
+            max-width: 640px; 
+            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.7); 
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .video-container h2 {
+            color: #eee;
+            margin-top: 0;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .video-responsive {
+            overflow: hidden;
+            padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+            position: relative;
+            height: 0;
+            border-radius: 3px;
+        }
+
+        .video-responsive iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Gameplays Favoritos</h1>
+
+    <div class="video-container">
+        <h2>Gameplay de Assassin's Creed Shadows</h2>
+        <div class="video-responsive">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/FrfngfyKCLQ?si=acOTun8JJa_dBO0f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         </div>
+    </div>
+
+    <div class="video-container">
+        <h2>Gameplay de God of War Ragnarok</h2>
+        <div class="video-responsive">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jSPlDRsQlxU?si=nKmywW1jBeTI_iqT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="video-container">
+        <h2>Gameplay de Call of Duty 6</h2>
+        <div class="video-responsive">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/pvjlCHxX7kI?si=DgCB83LTXbQfnaWB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         </div>
+    </div>
+
+    <div class="video-container">
+        <h2>Gameplay de Mario Kart World</h2>
+        <div class="video-responsive">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GzlrzocGgRE?si=3u3Wcgzy4XVrmyDj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="video-container">
+        <h2>Gameplay de Fortnite</h2>
+        <div class="video-responsive">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z8267jSoLM0?si=PTnLbhEH_Abi_pGB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
+        </div>
+    </div>
+
+</body>
+</html>

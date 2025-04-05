@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones Horizontales a la Derecha con Colores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eurostile:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to bottom, black, blue);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: white;
+            margin: 0;
+        }
+
+        .botones-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        .botones-container a {
+            text-decoration: none;
+        }
+
+        .botones-container button {
+            padding: 10px 15px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            color: #333; /* Color de texto por defecto */
+            transition: background-color 0.3s ease;
+            font-family: 'Eurostile', sans-serif;
+            white-space: nowrap;
+        }
+
+        .botones-container button:hover {
+            opacity: 0.8; /* Ligeramente más oscuro al pasar el ratón */
+        }
+
+        /* Colores específicos para cada botón */
+        .botones-container a:nth-child(1) button {
+            background-color: blue;
+            color: white; /* Texto blanco para mejor contraste */
+        }
+
+        .botones-container a:nth-child(2) button {
+            background-color: green;
+            color: white; /* Texto blanco para mejor contraste */
+        }
+
+        .botones-container a:nth-child(3) button {
+            background-color: gray;
+            color: white; /* Texto blanco para mejor contraste */
+        }
+
+        .botones-container a:nth-child(4) button {
+            background-color: #2a475e
+            color: black; 
+        }
+
+        .botones-container a:nth-child(5) button {
+            background-color: #fe0016; 
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <h2>Aquí encontrarás los mejores juegos</h2>
+        <div class="botones-container">
+            <a href="https://www.playstation.com/es-hn/" target="_blank"><button>Juegos de PS</button></a>
+            
+            <a href="https://www.xbox.com/es-HN/"target="_blank"><button>Juegos de Xbox</button></a>
+            
+            <a href="https://store.epicgames.com/es-ES/" target="_blank"><button>juegos de Epic</button></a>
+            
+            <a href="https://store.steampowered.com/?l=spanish" target="_blank"><button>Juegos de Steam</button></a>
+            
+            <a href="https://www.nintendo.com/es-es/" target="_blank"><button>Juegos de Nintendo</button></a>
+        </div>
+    </div>
+
+</body>
+</html>
